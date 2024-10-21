@@ -34,7 +34,12 @@ public class User {
         // Return that user.
         return "Mike Smith";
     }
-    
+    public static void update(String request) {
+        // Check for authentication and authorization.
+        // Connect to database
+        // Get the user from the database.
+        // Update the user by using the information coming from the API request.
+    }
 
 
 }
