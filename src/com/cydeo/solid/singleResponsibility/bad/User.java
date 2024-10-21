@@ -27,6 +27,14 @@ public class User {
         // Connect to database
         // Save that user to database.
     }
+    public static String read() {
+        // Check for authentication and authorization.
+        // Connect to database
+        // Get the user from the database.
+        // Return that user.
+        return "Mike Smith";
+    }
+    
 
 
 }
