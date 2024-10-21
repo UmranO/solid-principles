@@ -11,8 +11,11 @@ public class User {
         // Check validity of the API request.
         return flag;
     }
-
-
+    public static boolean authenticate() {
+        boolean flag = false;
+        // Implementation for authentication.
+        return flag;
+    }
 
 
 }
