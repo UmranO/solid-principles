@@ -22,5 +22,10 @@ public class X {
                                            //dependency'nin terse donme durumu gerceklesmis oldu. UOS Bilgi akisi terse
                                            //dondu.
 
+
+    Z a=new A();                          //A is a class that implements Interf.Z & if there is a problem in the method
+                                          //which is an implementation of the Z's abstract() in Class Y but this won't
+                                          //affect the same abstract()'s implementation in class A when we call it in A
+    a.method();
     }
 }
