@@ -21,6 +21,12 @@ public class User {
         // Implementation for authorization.
         return flag;
     }
+    public static void create(String request) {
+        // Check for authentication and authorization.
+        // Create a user by getting the information of the user from the API request.
+        // Connect to database
+        // Save that user to database.
+    }
 
 
 }
