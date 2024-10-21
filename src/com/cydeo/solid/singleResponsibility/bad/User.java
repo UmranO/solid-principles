@@ -50,6 +50,9 @@ public class User {
         // Based on the CRUD operation, create a response.
         return "Response";
     }
+    public static void sendResponse() {
+        // Implementation for sending the API response.
+    }
 
 
 
