@@ -1,4 +1,4 @@
 package com.cydeo;
 
-public class Y {
+public class Y implements Z {
 }
