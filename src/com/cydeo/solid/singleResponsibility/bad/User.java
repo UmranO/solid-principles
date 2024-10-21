@@ -1,7 +1,8 @@
 package com.cydeo.solid.singleResponsibility.bad;
-
 public class User {
 
+//This is an example of bad structure. This is built not following the Single Responsibility Principle. All the
+//functionalities put inb the same class. If anything bad happens with 1 method all the other methods won't work as well.
     public static void getRequest() {
         // Implementation for getting the API request.
         // Continue with the requested CRUD operation.
