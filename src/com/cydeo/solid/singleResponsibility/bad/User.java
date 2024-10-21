@@ -46,6 +46,10 @@ public class User {
         // Get the user from the database.
         // Delete the user by using the information coming from the API request.
     }
+    public static String createResponse() {
+        // Based on the CRUD operation, create a response.
+        return "Response";
+    }
 
 
 
