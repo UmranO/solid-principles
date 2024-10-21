@@ -5,5 +5,7 @@ public class X {
 
         Z z= new Y();
 
+        z.method();
+
     }
 }
