@@ -16,6 +16,11 @@ public class User {
         // Implementation for authentication.
         return flag;
     }
+    public static boolean authorize() {
+        boolean flag = false;
+        // Implementation for authorization.
+        return flag;
+    }
 
 
 }
