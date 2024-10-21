@@ -40,6 +40,13 @@ public class User {
         // Get the user from the database.
         // Update the user by using the information coming from the API request.
     }
+    public static void delete(String request) {
+        // Check for authentication and authorization.
+        // Connect to database
+        // Get the user from the database.
+        // Delete the user by using the information coming from the API request.
+    }
+
 
 
 }
