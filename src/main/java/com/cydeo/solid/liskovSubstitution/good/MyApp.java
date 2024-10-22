@@ -7,6 +7,7 @@ public class MyApp {
         rectangle.setHeight(3);
         rectangle.setWidth(5);
 
-       
+        Square square = new Square();
+        square.setSide(4);
     }
 }
