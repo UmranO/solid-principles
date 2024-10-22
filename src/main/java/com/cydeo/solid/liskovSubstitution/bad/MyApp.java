@@ -13,7 +13,7 @@ public class MyApp {
         Rectangle square = new Square();
         square.setHeight(4);
 
-        List<Rectangle> rectangles = Arrays.asList(rectangle, square);
+        List<Rectangle> rectangles = Arrays.asList(rectangle, square);           //Since Square extends Rectangle
 
         changeHeightAndWidth(rectangles);
 
