@@ -1,4 +1,4 @@
-package com.cydeo.solid.singleResponsibility.bad;
+package com.cydeo.solid.singleResponsibility.badExample;
 public class User {
 
 //This is an example of bad structure. This is built not following the Single Responsibility Principle. All the
