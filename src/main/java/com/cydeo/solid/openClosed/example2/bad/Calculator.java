@@ -18,5 +18,12 @@ public class Calculator {
             System.out.println(num1/num2);
         }
         //What happens if I want to add another operation later?   %
+        //-We have to make a modification to this calculate() like below which is not a good structure and align with
+        //the open-closed principle bec. we have to change an already present method instend of extend the structure
+
+//      if (operation.getType().equals(OperationType.MODULUS)) {
+//          System.out.println(num1 % num2);
+//        }
+
     }
 }
