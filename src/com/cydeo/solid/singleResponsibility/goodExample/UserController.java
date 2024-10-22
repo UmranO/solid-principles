@@ -10,4 +10,8 @@ public class UserController {
     public static String createResponse() {
         return "Response";  // For example "User is created"
     }
+
+    public static void sendResponse() {
+        // Send user a response
+    }
 }
