@@ -7,4 +7,10 @@ public class Circle implements Shape {
     public void draw() {
         System.out.println("Drawing Circle.");
     }
+
+//Constructor'i ben deneyebilmek icin ekledim. C'ninkinde yok
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
 }
