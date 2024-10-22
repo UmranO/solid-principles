@@ -6,4 +6,8 @@ public class UserController {
         // Get the request
         // Send this request to validation and security part
     }
+
+    public static String createResponse() {
+        return "Response";  // For example "User is created"
+    }
 }
