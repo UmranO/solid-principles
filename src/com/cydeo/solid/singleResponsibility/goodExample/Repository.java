@@ -9,4 +9,12 @@ public class Repository {
         // Connect to database
         // Read user from database
     }
+    public static void update() {
+        // Connect to database
+        // Update user in database
+    }
+    public static void delete() {
+        // Connect to database
+        // Delete user in database
+    }
 }
