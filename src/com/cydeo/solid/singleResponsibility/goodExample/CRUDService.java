@@ -13,4 +13,8 @@ public class CRUDService {
         // Update a user
         // Send user to database related part
     }
+    public static void delete() {
+        // Delete a user
+        // Send user to database related part
+    }
 }
