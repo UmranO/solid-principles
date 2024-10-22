@@ -10,5 +10,12 @@ public class UOTest {
 
         List<Shape> l = Arrays.asList(c, r, new Triangle());
 
+        startDrawing(l);
+    }
+
+    public static void startDrawing(List<Shape> shapes) {
+        for (Shape shape : shapes) {
+            shape.draw();
+        }
     }
 }
