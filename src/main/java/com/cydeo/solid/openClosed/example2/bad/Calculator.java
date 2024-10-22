@@ -5,7 +5,6 @@ public class Calculator {
 
         int num1 = 10;
         int num2 = 2;
-
         if(operation.getType()==OperationType.ADDITION){
             System.out.println( num1+num2);
         }
@@ -18,5 +17,6 @@ public class Calculator {
         if(operation.getType()==OperationType.DIVISION){
             System.out.println(num1/num2);
         }
+        //What happens if I want to add another operation later?   %
     }
 }
