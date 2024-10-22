@@ -5,5 +5,8 @@ public class Repository {
         // Connect to database
         // Create user in database
     }
-
+    public static void read() {
+        // Connect to database
+        // Read user from database
+    }
 }
