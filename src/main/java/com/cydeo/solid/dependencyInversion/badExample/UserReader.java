@@ -10,5 +10,8 @@ public class UserReader {
     public String getUsername() {                // public String getUsernameFromXML()
         return xmlReader.getUsername();
     }
+//    public String getUsernameFromJSON() {     //We should add a method to get the other format
+//        return jsonReader.getUsername();
+//    }
 
 }
