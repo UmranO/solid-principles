@@ -10,7 +10,7 @@ public class MyApp {
         birds.add(new Owl());
   //    birds.add(new Chicken());     // Compiler says that chicken can not fly.
 
-
+    letBirdsFly(birds);
     }
     public static void letBirdsFly(List<CanFly> birds) {
         for (CanFly bird : birds) {
