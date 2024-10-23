@@ -8,7 +8,7 @@ public class MyApp {
     List<CanFly> birds= new ArrayList<>();
         birds.add(new Eagle());
         birds.add(new Owl());
-  //    birds.add(new Chicken());     // Compiler says that chicken can not fly.
+  //    birds.add(new Chicken());      Compiler says that chicken can not fly.
 
     letBirdsFly(birds);
     }
