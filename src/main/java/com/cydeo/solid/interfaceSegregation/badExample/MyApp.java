@@ -5,7 +5,12 @@ import java.util.ArrayList;
 public class MyApp {
     public static void main(String[] args) {
 
-        List<Bird> birds=new ArrayList<>();
+        List<Bird> birds = new ArrayList<>();
+        birds.add(new Eagle());
+        birds.add(new Owl());
+        birds.add(new Chicken());
 
+       
     }
+
 }
