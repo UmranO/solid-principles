@@ -7,7 +7,7 @@ public class UserReader {
         this.xmlReader = xmlReader;
     }
 
-    public String getUsername() {
+    public String getUsername() {                // public String getUsernameFromXML()
         return xmlReader.getUsername();
     }
 
