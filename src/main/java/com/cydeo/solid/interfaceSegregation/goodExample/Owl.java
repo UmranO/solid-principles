@@ -4,17 +4,17 @@ public class Owl implements CanEat, CanWalk, CanFly {        //Since Eagle is ab
 
     @Override
     public void eat() {
-        System.out.println("Eating.");
+        System.out.println("Owl Eating.");
     }
 
     @Override
     public void fly() {
-        System.out.println("Flying.");
+        System.out.println("Owl Flying.");
     }
 
     @Override
     public void walk() {
-        System.out.println("Walking.");
+        System.out.println("Owl Walking.");
     }
 
 }
