@@ -14,7 +14,7 @@ public class MyApp {
     }
     public static void letBirdsFly(List<CanFly> birds) {
         for (CanFly bird : birds) {
-            bird.fly();     // Does nothing for chicken
-        }
+            bird.fly();     // Does nothing for chicken         //=>Eagle Flying.
+        }                                                       //=>Owl Flying.
     }
 }
