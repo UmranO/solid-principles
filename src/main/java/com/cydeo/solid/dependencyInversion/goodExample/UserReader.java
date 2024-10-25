@@ -8,4 +8,8 @@ public class UserReader {
     public UserReader (Reader reader){
         this.reader=reader;
     }
+
+    public String getUsername(){
+        return reader.getUserName();
+    }
 }
