@@ -6,9 +6,9 @@ public class UserReader {
                                                 //as a field instead of private XMLReader xmlReader;
                                                 //Bu sekilde Reader'i implement eden her hangi bir class'dan reader'i
                                                 //kullanabilecek hale getirmis oluyoruz.
-    public UserReader (Reader reader){          //UserReader class doesn't know anything about XMLReader Class bec Reader
-        this.reader=reader;                     //interface doesn't give that interface in it
-    }
+    public UserReader (Reader reader){          //UserReader class doesn't know anything about XMLReader Class bec
+        this.reader=reader;                     //UserReader class doesn't give that in it.Also Reader interface doesn't
+    }                                           //have that info as well.
 
     public String getUsername(){
         return reader.getUserName();
