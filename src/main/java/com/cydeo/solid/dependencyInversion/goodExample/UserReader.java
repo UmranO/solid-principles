@@ -9,7 +9,7 @@ public class UserReader {
     public UserReader (Reader reader){          //UserReader class doesn't know anything about XMLReader Class bec
         this.reader=reader;                     //UserReader class doesn't give that in it.Also Reader interface doesn't
     }                                           //have that info as well.
-
+                                                //XMLReader knows about Reader Interface bec.it implements it
     public String getUsername(){
         return reader.getUserName();
     }
