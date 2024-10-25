@@ -11,7 +11,7 @@ public class JSONReader implements Reader{
 
     @Override
     public String getUserName() {
-        return "{\"username\": \"mikesmith\"}";
+        return "{\"username\": \"mikesmith\"}";  //1 Line representation of JSON format
     }
 
 }
